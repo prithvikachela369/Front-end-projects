@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+@import url('ttps://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body {
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.dealfuel.com%2Fwp-content%2Fuploads%2F2015%2F06%2Fcolor191.png&f=1&nofb=1");
+}
+
+#title {
+    color: black;
+    font-family: 'Poppins', monospace;
+    text-align: center;
+    color: grey;
+}
+
+#description {
+    text-align: center;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+
+#number {
+    width: 180px;
+}
+
+#text-area {
+    width: 400px;
+    height: 80px;
+}
+
+#survey-form {
+    border-style: solid;
+    border-color: grey;
+    border-width: 5px;
+    background: rgba(255, 165, 0, 0.4);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+input {
+    font-family: Helvetica;
+    border-radius: 5px;
+    border-color: black;
+}
+
+label {
+    font-family: Rockwell;
+    font-weight: bold;
+}
+
+#dropdown {
+    font-family: Helvetica;
+    border-radius: 5px;
+}
+
+#radio-field {
+    border-radius: 5px;
+    border-width: 3px;
+    border-color: black;
+    font-family: Consolas;
+    font-weight: bold;
+}
+
+#checkbox-field {
+    border-radius: 5px;
+    border-width: 3px;
+    border-color: black;
+    font-family: Consolas;
+    font-weight: bold;
+}
+
+#comments {
+    border-radius: 5px;
+    border-width: 3px;
+    border-color: black;
+    height: 100px;
+    width: 600px;
+}
+
+#submit {
+    border-radius: 5px;
+    border-width: 3px;
+    border-color: black;
+    color: black;
+    font-weight: bold;
+    background: rgb(50, 150, 255);
+    transition: transform 0.5s;
+}
+
+#submit:hover {
+    color: red;
+    transform: scale(1.1);
+}
